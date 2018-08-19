@@ -1,0 +1,36 @@
+{
+  "name": "exit-gracefully",
+  "version": "0.2.1",
+  "description": "simple graceful exit with zero dependencies",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oiime/exit-gracefully.git"
+  },
+  "scripts": {
+    "test": "mocha spec/*.spec.js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "keywords": [
+    "process",
+    "exit"
+  ],
+  "author": "Itamar Maltz",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "chai": "^4.1.2",
+    "eslint": "^5.3.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-mocha": "^5.1.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  },
+  "dependencies": {
+    "standard": "^11.0.1"
+  }
+}
